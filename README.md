@@ -210,7 +210,7 @@ Resource Destoryed!
 
 This method can do the memory management, but there are some drawbacks:
 
-1. $=$ is not real assignment but ownership transfer. It makes the original pointer empty.
+1. <a href="https://www.codecogs.com/eqnedit.php?latex==" target="_blank"><img src="https://latex.codecogs.com/gif.latex?=" title="=" /></a> is not real assignment but ownership transfer. It makes the original pointer empty.
 2. It uses ```delete m_ptr;```, which cannot work for variable array (vector) but fixed-size array.
 
 Based on the considerations above, we can use C++11 new features to revise our code:
