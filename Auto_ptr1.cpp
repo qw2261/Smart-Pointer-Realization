@@ -9,7 +9,7 @@ public:
     
     virtual ~Auto_ptr1()
     {
-        delete m_ptr;
+      delete m_ptr;
     }
 
     T& operator*(){return *m_ptr;}
